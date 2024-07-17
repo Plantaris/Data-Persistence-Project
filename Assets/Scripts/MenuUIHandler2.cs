@@ -29,9 +29,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void Exit()
     {
-
-     MainMerger.Instance.SaveColor();
-         
+       
 
     #if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
